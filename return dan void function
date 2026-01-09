@@ -1,0 +1,25 @@
+#RETURN dan VOID FUNCTION
+
+#VOid function
+def luas_segitiga(alas, tinggi):
+    luas = 1/2 * alas * tinggi
+    
+print(luas_segitiga(10, 15))
+
+
+#Return function
+def luas_persegi(sisi):
+    luas = sisi**2
+    return luas
+
+print(luas_persegi(5))
+
+
+
+
+
+
+
+
+
+
