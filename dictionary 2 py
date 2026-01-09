@@ -1,0 +1,47 @@
+# DICTIONARY (kamus)
+# sama dengan list, dictionary digunakan untuk
+# menyimpan lebih dari satu data dalam satu variabel
+# menggunakan key => value
+
+biodata = {
+    "nama": "liant acumalaka",
+    "umur": 16,
+    "hobi": ["main emel", "musik",],
+    "alamat": "38 polos"
+}
+
+print("nama saya", biodata["nama"])
+print("umur saya", biodata["umur"])
+print("hobi saya adalah : ")
+for index in biodata["hobi"]:
+    print(index)
+    
+    
+# buat dictionary yang mengisi data sekolah
+# (nama sekolah, npsn, alamat, jurusan, dll)
+
+data_sekolah = {
+    "nama sekolah": "esemka 3",
+    "warna": "hijau",
+    "alamat": "jalan kemiri",
+    "jurusan": ["pplg", "tkl", "dkv", "tkj", "tkk", "dpib"],
+    "eskul": ["pramuka", "paskib", "risma", "basket"],
+}
+    
+print("nama sekolah", data_sekolah["nama sekolah"])
+print("warna", data_sekolah["warna"])
+print("alamat di", data_sekolah["alamat"])
+print("jurusannya ada : ")
+for index in data_sekolah["jurusan"]:
+    print(index)
+print("eskulnya ada : ")
+for index in data_sekolah["eskul"]:
+    print(index)
+
+
+
+
+
+
+
+
