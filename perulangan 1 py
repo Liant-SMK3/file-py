@@ -1,0 +1,16 @@
+for index in range(5):
+    print(index + 1, "perulangan easy")
+    
+#menghitung jumlah perulangan dengan while
+total = 0
+while True:
+    total += 1
+    print("sedang makan nasgor goreng")
+    lagi = input("nambah lagi?(ya/tidak)")
+    if(lagi == "tidak"):
+        break
+print("total makan:", total)
+
+
+
+
