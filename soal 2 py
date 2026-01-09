@@ -1,0 +1,20 @@
+#soal aritmatika
+#buatkan program sederhana untuk menghitung(pilih salah satu)
+#dengan input
+#2. luas jajar genjang
+
+
+a = int(input("masukan alas jajar genjang:"))
+b = int(input("masukan tinggi jajar genjang:"))
+
+print("hasilnya:", a * b)
+
+
+
+
+
+
+
+
+
+
