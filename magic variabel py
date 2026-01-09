@@ -1,0 +1,19 @@
+#contoh args
+
+def sapa(*nama):
+    print("siswa:", nama)
+
+sapa("liant")
+sapa("nabil", "asad")
+sapa("zaki", "alfatir", "kenzo")
+
+
+#contoh kwargs
+
+def siswa(**data):
+    print("data siswa", data)
+
+siswa (nama="liant",
+       umur=10,
+       kelas="X PPLG B",)
+
