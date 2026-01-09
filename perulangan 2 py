@@ -1,0 +1,15 @@
+foods = ["mie chiken1", "mie chiken2", "mie chiken3"]
+
+#menampilkan data list menggunakan index
+for index in range(len(foods)):
+    print("data", foods[index])
+
+#menampilkan data list tanpa index
+for food in foods:
+    print("saya suka",food)
+
+
+
+
+
+
