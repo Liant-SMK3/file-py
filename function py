@@ -1,0 +1,10 @@
+def sapa(nama):
+    print("hallo", nama)
+sapa("p")
+
+def luas_segitiga(alas,tinggi):
+    hitung = 1/2*alas*tinggi
+    print("hasil luas segitiga:", hitung)
+luas_segitiga(10,20)
+
+
