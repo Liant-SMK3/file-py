@@ -1,0 +1,34 @@
+#fungsi dengan parameter ARGS
+def food_favorit(*data):
+    #memanggil satu data
+    print("top makanan sdm tinggi:", data[2])
+    
+    #memanggil dengan perulangan
+    for food in data:
+        print("food", food)
+        
+#memanggil fungsi food_favorit        
+food_favorit("nasgor goreng", "rice padang", "mie chiken", "meat ball")
+
+print("------------------------")
+
+#fungsi dengan parameter KWARGS
+def biodata(**siswa):
+    #memanggil data dengan kunci
+    print("daftar data siswa:", siswa["nama"])
+    
+
+    #memanggil semua data siswa dengan masing-masing kuncinya
+    for key in siswa:
+        print(key, siswa[key])
+        
+    
+biodata(nama = "liant",
+        umur = 999,
+        alamat = "metro",
+        hobby = ["mendengarkan musik", "main game", "watch anime",])
+
+
+
+
+
