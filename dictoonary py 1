@@ -1,0 +1,20 @@
+# buat dictionary yang mengisi data sekolah
+# (nama sekolah, npsn, alamat, jurusan, dll)
+
+data_sekolah = {
+    "nama sekolah": "esemka 3",
+    "warna": "hijau",
+    "alamat": " metro, jalan kemiri",
+    "jurusan": ["PPLG", "TKL", "DKV", "TKJ", "TKK", "DPIB"],
+    "eskul": ["pramuka", "paskib", "risma", "basket"],
+}
+    
+print("nama_sekolah :", data_sekolah["nama sekolah"])
+print("warna :", data_sekolah["warna"])
+print("alamat_di :", data_sekolah["alamat"])
+print("jurusannya_ada : ")
+for index in data_sekolah["jurusan"]:
+    print(index)
+print("eskulnya_ada : ")
+for index in data_sekolah["eskul"]:
+    print(index)
