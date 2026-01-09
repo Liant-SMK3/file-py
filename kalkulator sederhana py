@@ -1,0 +1,20 @@
+#program kakulator sederhana
+
+angka_pertama = float(input("masukan angka pertama:"))
+operator_pilihan = input("masukan operator(+,-,*,/):")
+angka_kedua = float(input("masukan angka kedua:"))
+
+#proses perhitungan
+if(operator_pilihan == "+"):
+    hasil = angka_pertama + angka_kedua
+elif(operator_pilihan == "-"):
+    hasil = angka_pertama - angka_kedua
+elif(operator_pilihan == "*"):
+    hasil = angka_pertama * angka_kedua
+elif(operator_pilihan == "/"):
+    hasil = angka_pertama / angka_kedua
+else:
+    print("operator tidak valid")
+
+#cetak hasil
+print("hasil:", angka_pertama, operator_pilihan, angka_kedua, "=", hasil)
