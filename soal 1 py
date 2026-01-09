@@ -1,0 +1,33 @@
+#soal perulangan
+#buatlah list makanan (tentukan sendiri list nya)
+#kemudian tampilkan dengan hasil seperti berikut
+#daftar menu makanan :
+#1 makanan pertama
+#2 makanan kedua
+#3 makanan ketiga 
+#4 dst
+#(input) silahkan pilih makanan diatas : 3
+#makanan yang anda pilih adalah makanan ketiga
+
+
+makanan = ["ayam", "tahu", "kangkung", "bayam", "ikan"]
+
+print("daftar menu makanan:")
+for index in range(len(makanan)):
+    print(index + 1, makanan[index])
+
+pilih = int(input("silahkan pilih makanan diatas :"))
+print("makanan yang anda pilih adalah makanan :", makanan[pilih-1])
+
+
+
+
+
+
+
+
+
+
+
+
+
