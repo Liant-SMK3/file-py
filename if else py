@@ -1,0 +1,32 @@
+print("PEMBERITAHUAN KELULSAN")
+print("----------------------")
+
+lulus = True
+if(lulus):
+    print("selamat anda lulus")
+else:
+    print("maaf anda belum lulus")
+    
+umur = 12
+if(umur < 12):
+    print("sekolah sd")
+elif(umur < 16):
+    print("sekolah smp")
+elif(umur < 18):
+    print("sekolah smk")
+else:
+    print("belum sekolah")
+
+
+
+total_belanja = int(input("berapa totalnya:"))
+member = input("apakah member?") 
+
+if(total_belanja >= 100000):
+    if(member == "ya"):
+        print("diskon 30%")
+    else:
+        print("diskon 10%")
+else:
+    print("belanja lebih untuk diskon")
+    
